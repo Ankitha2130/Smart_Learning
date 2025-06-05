@@ -1,0 +1,520 @@
+[
+    {
+        "error": "KeyError",
+        "beginner_explanation": "A KeyError happens when you try to get a value from a dictionary using a key that doesn't exist. For example, if you try to access my_dict['apple'] but 'apple' is not in the dictionary, Python will raise this error.",
+        "intermediate_explanation": "KeyError occurs when a dictionary key is accessed but not found. Use 'in' or dict.get() to avoid it."
+    },
+    {
+        "error": "TypeError",
+        "beginner_explanation": "A TypeError happens when you try to perform an operation on the wrong type of data. For instance, trying to add a number and a string together will cause this error.",
+        "intermediate_explanation": "TypeError is raised when an operation is applied to an object of an inappropriate type."
+    },
+    {
+        "error": "IndexError",
+        "beginner_explanation": "IndexError occurs when you try to access a list item using an index that is out of range. For example, accessing the 10th element in a list with only 5 items will raise this error.",
+        "intermediate_explanation": "IndexError is thrown when a list index is out of range."
+    },
+    {
+        "error": "ValueError",
+        "beginner_explanation": "A ValueError happens when a function gets a value of the right type but an inappropriate value. Like converting a letter to a number using int('a') will raise this error.",
+        "intermediate_explanation": "ValueError occurs when a function receives the correct data type but an invalid value."
+    },
+    {
+        "error": "AttributeError",
+        "beginner_explanation": "AttributeError occurs when you try to use a function or variable that doesn\u2019t exist for that object. For example, calling .append() on a string will raise this error.",
+        "intermediate_explanation": "AttributeError is raised when an invalid attribute is accessed for an object."
+    },
+    {
+        "error": "NameError",
+        "beginner_explanation": "NameError means you're trying to use a variable or function that hasn\u2019t been defined yet. Maybe you misspelled it or forgot to create it.",
+        "intermediate_explanation": "NameError is raised when a local or global name is not found."
+    },
+    {
+        "error": "ZeroDivisionError",
+        "beginner_explanation": "ZeroDivisionError happens when you try to divide a number by zero. Since dividing by zero is not allowed in math, Python raises this error.",
+        "intermediate_explanation": "ZeroDivisionError occurs when a number is divided by zero."
+    },
+    {
+        "error": "ImportError",
+        "beginner_explanation": "ImportError occurs when Python can\u2019t find the file or module you're trying to import. This could be due to typos or missing files.",
+        "intermediate_explanation": "ImportError is raised when an import statement fails to find the module."
+    },
+    {
+        "error": "IndentationError",
+        "beginner_explanation": "IndentationError means your code blocks are not properly aligned. Python uses indentation to understand code structure, so inconsistent indentation will raise this error.",
+        "intermediate_explanation": "IndentationError is raised when code blocks are not indented properly."
+    },
+    {
+        "error": "SyntaxError",
+        "beginner_explanation": "SyntaxError means your code is written incorrectly, like missing colons, quotes, or brackets. Python cannot understand and run it.",
+        "intermediate_explanation": "SyntaxError occurs when the parser encounters incorrect Python code syntax."
+    },
+  
+  {
+    "error": "ModuleNotFoundError: No module named 'abc'",
+    "beginner_explanation": "Python can't find the module named 'abc'. You might need to install it or check the spelling.",
+    "intermediate_explanation": "Raised when an import statement refers to a module that isn\u2019t available in the current environment or PYTHONPATH."
+  },
+  {
+    "error": "IndentationError: unexpected indent",
+    "beginner_explanation": "Your code has an extra or misplaced space that Python doesn't expect. Python relies on correct indentation.",
+    "intermediate_explanation": "This error is due to an incorrect indentation level that violates Python's syntax rules for block structures."
+  },
+  {
+    "error": "SyntaxError: invalid syntax",
+    "beginner_explanation": "Your code has a typo or something is written incorrectly, which Python can't understand.",
+    "intermediate_explanation": "Python parser encounters code that doesn't conform to valid syntax rules, such as missing colons or mismatched parentheses."
+  },
+  {
+    "error": "NameError: name 'x' is not defined",
+    "beginner_explanation": "You are using a variable 'x' that hasn't been defined yet. Make sure you assign a value before using it.",
+    "intermediate_explanation": "This error arises when a variable is referenced before assignment or definition in the current scope."
+  },
+  
+  {
+    "error": "ValueError: invalid literal for int() with base 10: 'abc'",
+    "beginner_explanation": "You are trying to convert a word to a number, which is not possible.",
+    "intermediate_explanation": "Occurs when converting a string to an int fails because the string doesn't represent a valid number."
+  },
+  
+  {
+    "error": "IndentationError: unexpected indent",
+    "beginner_explanation": "Your code has an extra or misplaced space that Python doesn't expect. Python relies on correct indentation.",
+    "intermediate_explanation": "This error is due to an incorrect indentation level that violates Python's syntax rules for block structures."
+  },
+  {
+    "error": "AttributeError: 'list' object has no attribute 'appendleft'",
+    "beginner_explanation": "You are trying to use a function that doesn\u2019t exist for a list. 'appendleft' is not a valid list method.",
+    "intermediate_explanation": "This occurs when calling a method that's not defined for the object\u2019s type\u2014in this case, 'appendleft' on a list."
+  },
+  {
+    "error": "NameError: name 'x' is not defined",
+    "beginner_explanation": "You are using a variable 'x' that hasn't been defined yet. Make sure you assign a value before using it.",
+    "intermediate_explanation": "This error arises when a variable is referenced before assignment or definition in the current scope."
+  },
+  {
+    "error": "SyntaxError: invalid syntax",
+    "beginner_explanation": "Your code has a typo or something is written incorrectly, which Python can't understand.",
+    "intermediate_explanation": "Python parser encounters code that doesn't conform to valid syntax rules, such as missing colons or mismatched parentheses."
+  },
+  {
+    "error": "IndexError: list index out of range",
+    "beginner_explanation": "You tried to access a position in a list that doesn\u2019t exist. Check if the index is within the valid range.",
+    "intermediate_explanation": "This occurs when trying to access an index that exceeds the list\u2019s bounds."
+  },
+  {
+    "error": "ZeroDivisionError: division by zero",
+    "beginner_explanation": "You are trying to divide a number by zero, which is not allowed. Division by zero causes an error in Python.",
+    "intermediate_explanation": "This error occurs because the divisor in a division operation is zero, which is mathematically undefined."
+  },
+  {
+    "error": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "beginner_explanation": "You are trying to add a number and a string together, which Python doesn't allow.",
+    "intermediate_explanation": "This error indicates that you're performing an operation between incompatible types, such as adding an integer to a string."
+  },
+  {
+    "error": "KeyError: 'key'",
+    "beginner_explanation": "You are trying to get a value from a dictionary using a key that doesn't exist.",
+    "intermediate_explanation": "This error occurs when attempting to access a dictionary key that hasn't been defined."
+  },
+  {
+    "error": "KeyError: 'key'",
+    "beginner_explanation": "You are trying to get a value from a dictionary using a key that doesn't exist.",
+    "intermediate_explanation": "This error occurs when attempting to access a dictionary key that hasn't been defined."
+  },
+  {
+    "error": "IndexError: list index out of range",
+    "beginner_explanation": "You tried to access a position in a list that doesn\u2019t exist. Check if the index is within the valid range.",
+    "intermediate_explanation": "This occurs when trying to access an index that exceeds the list\u2019s bounds."
+  },
+  {
+    "error": "IndentationError: unexpected indent",
+    "beginner_explanation": "Your code has an extra or misplaced space that Python doesn't expect. Python relies on correct indentation.",
+    "intermediate_explanation": "This error is due to an incorrect indentation level that violates Python's syntax rules for block structures."
+  },
+  {
+    "error": "AttributeError: 'list' object has no attribute 'appendleft'",
+    "beginner_explanation": "You are trying to use a function that doesn\u2019t exist for a list. 'appendleft' is not a valid list method.",
+    "intermediate_explanation": "This occurs when calling a method that's not defined for the object\u2019s type\u2014in this case, 'appendleft' on a list."
+  },
+  {
+    "error": "SyntaxError: invalid syntax",
+    "beginner_explanation": "Your code has a typo or something is written incorrectly, which Python can't understand.",
+    "intermediate_explanation": "Python parser encounters code that doesn't conform to valid syntax rules, such as missing colons or mismatched parentheses."
+  },
+  {
+    "error": "ModuleNotFoundError: No module named 'abc'",
+    "beginner_explanation": "Python can't find the module named 'abc'. You might need to install it or check the spelling.",
+    "intermediate_explanation": "Raised when an import statement refers to a module that isn\u2019t available in the current environment or PYTHONPATH."
+  },
+  {
+    "error": "NameError: name 'x' is not defined",
+    "beginner_explanation": "You are using a variable 'x' that hasn't been defined yet. Make sure you assign a value before using it.",
+    "intermediate_explanation": "This error arises when a variable is referenced before assignment or definition in the current scope."
+  },
+  {
+    "error": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "beginner_explanation": "You are trying to add a number and a string together, which Python doesn't allow.",
+    "intermediate_explanation": "This error indicates that you're performing an operation between incompatible types, such as adding an integer to a string."
+  },
+  {
+    "error": "ValueError: invalid literal for int() with base 10: 'abc'",
+    "beginner_explanation": "You are trying to convert a word to a number, which is not possible.",
+    "intermediate_explanation": "Occurs when converting a string to an int fails because the string doesn't represent a valid number."
+  },
+  {
+    "error": "ZeroDivisionError: division by zero",
+    "beginner_explanation": "You are trying to divide a number by zero, which is not allowed. Division by zero causes an error in Python.",
+    "intermediate_explanation": "This error occurs because the divisor in a division operation is zero, which is mathematically undefined."
+  },
+  {
+    "error": "SyntaxError: invalid syntax",
+    "beginner_explanation": "Your code has a typo or something is written incorrectly, which Python can't understand.",
+    "intermediate_explanation": "Python parser encounters code that doesn't conform to valid syntax rules, such as missing colons or mismatched parentheses."
+  },
+  {
+    "error": "IndentationError: unexpected indent",
+    "beginner_explanation": "Your code has an extra or misplaced space that Python doesn't expect. Python relies on correct indentation.",
+    "intermediate_explanation": "This error is due to an incorrect indentation level that violates Python's syntax rules for block structures."
+  },
+  {
+    "error": "ValueError: invalid literal for int() with base 10: 'abc'",
+    "beginner_explanation": "You are trying to convert a word to a number, which is not possible.",
+    "intermediate_explanation": "Occurs when converting a string to an int fails because the string doesn't represent a valid number."
+  },
+  {
+    "error": "ModuleNotFoundError: No module named 'abc'",
+    "beginner_explanation": "Python can't find the module named 'abc'. You might need to install it or check the spelling.",
+    "intermediate_explanation": "Raised when an import statement refers to a module that isn\u2019t available in the current environment or PYTHONPATH."
+  },
+  {
+    "error": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "beginner_explanation": "You are trying to add a number and a string together, which Python doesn't allow.",
+    "intermediate_explanation": "This error indicates that you're performing an operation between incompatible types, such as adding an integer to a string."
+  },
+  {
+    "error": "AttributeError: 'list' object has no attribute 'appendleft'",
+    "beginner_explanation": "You are trying to use a function that doesn\u2019t exist for a list. 'appendleft' is not a valid list method.",
+    "intermediate_explanation": "This occurs when calling a method that's not defined for the object\u2019s type\u2014in this case, 'appendleft' on a list."
+  },
+  {
+    "error": "NameError: name 'x' is not defined",
+    "beginner_explanation": "You are using a variable 'x' that hasn't been defined yet. Make sure you assign a value before using it.",
+    "intermediate_explanation": "This error arises when a variable is referenced before assignment or definition in the current scope."
+  },
+  {
+    "error": "ZeroDivisionError: division by zero",
+    "beginner_explanation": "You are trying to divide a number by zero, which is not allowed. Division by zero causes an error in Python.",
+    "intermediate_explanation": "This error occurs because the divisor in a division operation is zero, which is mathematically undefined."
+  },
+  {
+    "error": "KeyError: 'key'",
+    "beginner_explanation": "You are trying to get a value from a dictionary using a key that doesn't exist.",
+    "intermediate_explanation": "This error occurs when attempting to access a dictionary key that hasn't been defined."
+  },
+  {
+    "error": "IndexError: list index out of range",
+    "beginner_explanation": "You tried to access a position in a list that doesn\u2019t exist. Check if the index is within the valid range.",
+    "intermediate_explanation": "This occurs when trying to access an index that exceeds the list\u2019s bounds."
+  },
+  {
+    "error": "NameError: name 'x' is not defined",
+    "beginner_explanation": "You are using a variable 'x' that hasn't been defined yet. Make sure you assign a value before using it.",
+    "intermediate_explanation": "This error arises when a variable is referenced before assignment or definition in the current scope."
+  },
+  {
+    "error": "ModuleNotFoundError: No module named 'abc'",
+    "beginner_explanation": "Python can't find the module named 'abc'. You might need to install it or check the spelling.",
+    "intermediate_explanation": "Raised when an import statement refers to a module that isn\u2019t available in the current environment or PYTHONPATH."
+  },
+  {
+    "error": "ZeroDivisionError: division by zero",
+    "beginner_explanation": "You are trying to divide a number by zero, which is not allowed. Division by zero causes an error in Python.",
+    "intermediate_explanation": "This error occurs because the divisor in a division operation is zero, which is mathematically undefined."
+  },
+  {
+    "error": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "beginner_explanation": "You are trying to add a number and a string together, which Python doesn't allow.",
+    "intermediate_explanation": "This error indicates that you're performing an operation between incompatible types, such as adding an integer to a string."
+  },
+  {
+    "error": "SyntaxError: invalid syntax",
+    "beginner_explanation": "Your code has a typo or something is written incorrectly, which Python can't understand.",
+    "intermediate_explanation": "Python parser encounters code that doesn't conform to valid syntax rules, such as missing colons or mismatched parentheses."
+  },
+  {
+    "error": "ValueError: invalid literal for int() with base 10: 'abc'",
+    "beginner_explanation": "You are trying to convert a word to a number, which is not possible.",
+    "intermediate_explanation": "Occurs when converting a string to an int fails because the string doesn't represent a valid number."
+  },
+  {
+    "error": "IndexError: list index out of range",
+    "beginner_explanation": "You tried to access a position in a list that doesn\u2019t exist. Check if the index is within the valid range.",
+    "intermediate_explanation": "This occurs when trying to access an index that exceeds the list\u2019s bounds."
+  },
+  {
+    "error": "AttributeError: 'list' object has no attribute 'appendleft'",
+    "beginner_explanation": "You are trying to use a function that doesn\u2019t exist for a list. 'appendleft' is not a valid list method.",
+    "intermediate_explanation": "This occurs when calling a method that's not defined for the object\u2019s type\u2014in this case, 'appendleft' on a list."
+  },
+  {
+    "error": "IndentationError: unexpected indent",
+    "beginner_explanation": "Your code has an extra or misplaced space that Python doesn't expect. Python relies on correct indentation.",
+    "intermediate_explanation": "This error is due to an incorrect indentation level that violates Python's syntax rules for block structures."
+  },
+  {
+    "error": "KeyError: 'key'",
+    "beginner_explanation": "You are trying to get a value from a dictionary using a key that doesn't exist.",
+    "intermediate_explanation": "This error occurs when attempting to access a dictionary key that hasn't been defined."
+  },
+  {
+    "error": "IndentationError: unexpected indent",
+    "beginner_explanation": "Your code has an extra or misplaced space that Python doesn't expect. Python relies on correct indentation.",
+    "intermediate_explanation": "This error is due to an incorrect indentation level that violates Python's syntax rules for block structures."
+  },
+  {
+    "error": "ModuleNotFoundError: No module named 'abc'",
+    "beginner_explanation": "Python can't find the module named 'abc'. You might need to install it or check the spelling.",
+    "intermediate_explanation": "Raised when an import statement refers to a module that isn\u2019t available in the current environment or PYTHONPATH."
+  },
+  {
+    "error": "NameError: name 'x' is not defined",
+    "beginner_explanation": "You are using a variable 'x' that hasn't been defined yet. Make sure you assign a value before using it.",
+    "intermediate_explanation": "This error arises when a variable is referenced before assignment or definition in the current scope."
+  },
+  {
+    "error": "IndexError: list index out of range",
+    "beginner_explanation": "You tried to access a position in a list that doesn\u2019t exist. Check if the index is within the valid range.",
+    "intermediate_explanation": "This occurs when trying to access an index that exceeds the list\u2019s bounds."
+  },
+  {
+    "error": "KeyError: 'key'",
+    "beginner_explanation": "You are trying to get a value from a dictionary using a key that doesn't exist.",
+    "intermediate_explanation": "This error occurs when attempting to access a dictionary key that hasn't been defined."
+  },
+  {
+    "error": "ValueError: invalid literal for int() with base 10: 'abc'",
+    "beginner_explanation": "You are trying to convert a word to a number, which is not possible.",
+    "intermediate_explanation": "Occurs when converting a string to an int fails because the string doesn't represent a valid number."
+  },
+  {
+    "error": "SyntaxError: invalid syntax",
+    "beginner_explanation": "Your code has a typo or something is written incorrectly, which Python can't understand.",
+    "intermediate_explanation": "Python parser encounters code that doesn't conform to valid syntax rules, such as missing colons or mismatched parentheses."
+  },
+  {
+    "error": "AttributeError: 'list' object has no attribute 'appendleft'",
+    "beginner_explanation": "You are trying to use a function that doesn\u2019t exist for a list. 'appendleft' is not a valid list method.",
+    "intermediate_explanation": "This occurs when calling a method that's not defined for the object\u2019s type\u2014in this case, 'appendleft' on a list."
+  },
+  {
+    "error": "ZeroDivisionError: division by zero",
+    "beginner_explanation": "You are trying to divide a number by zero, which is not allowed. Division by zero causes an error in Python.",
+    "intermediate_explanation": "This error occurs because the divisor in a division operation is zero, which is mathematically undefined."
+  },
+  {
+    "error": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "beginner_explanation": "You are trying to add a number and a string together, which Python doesn't allow.",
+    "intermediate_explanation": "This error indicates that you're performing an operation between incompatible types, such as adding an integer to a string."
+  },
+  {
+    "error": "KeyError: 'key'",
+    "beginner_explanation": "You are trying to get a value from a dictionary using a key that doesn't exist.",
+    "intermediate_explanation": "This error occurs when attempting to access a dictionary key that hasn't been defined."
+  },
+  {
+    "error": "ModuleNotFoundError: No module named 'abc'",
+    "beginner_explanation": "Python can't find the module named 'abc'. You might need to install it or check the spelling.",
+    "intermediate_explanation": "Raised when an import statement refers to a module that isn\u2019t available in the current environment or PYTHONPATH."
+  },
+  {
+    "error": "NameError: name 'x' is not defined",
+    "beginner_explanation": "You are using a variable 'x' that hasn't been defined yet. Make sure you assign a value before using it.",
+    "intermediate_explanation": "This error arises when a variable is referenced before assignment or definition in the current scope."
+  },
+  {
+    "error": "ValueError: invalid literal for int() with base 10: 'abc'",
+    "beginner_explanation": "You are trying to convert a word to a number, which is not possible.",
+    "intermediate_explanation": "Occurs when converting a string to an int fails because the string doesn't represent a valid number."
+  },
+  {
+    "error": "SyntaxError: invalid syntax",
+    "beginner_explanation": "Your code has a typo or something is written incorrectly, which Python can't understand.",
+    "intermediate_explanation": "Python parser encounters code that doesn't conform to valid syntax rules, such as missing colons or mismatched parentheses."
+  },
+  {
+    "error": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "beginner_explanation": "You are trying to add a number and a string together, which Python doesn't allow.",
+    "intermediate_explanation": "This error indicates that you're performing an operation between incompatible types, such as adding an integer to a string."
+  },
+  {
+    "error": "ZeroDivisionError: division by zero",
+    "beginner_explanation": "You are trying to divide a number by zero, which is not allowed. Division by zero causes an error in Python.",
+    "intermediate_explanation": "This error occurs because the divisor in a division operation is zero, which is mathematically undefined."
+  },
+  {
+    "error": "IndexError: list index out of range",
+    "beginner_explanation": "You tried to access a position in a list that doesn\u2019t exist. Check if the index is within the valid range.",
+    "intermediate_explanation": "This occurs when trying to access an index that exceeds the list\u2019s bounds."
+  },
+  {
+    "error": "IndentationError: unexpected indent",
+    "beginner_explanation": "Your code has an extra or misplaced space that Python doesn't expect. Python relies on correct indentation.",
+    "intermediate_explanation": "This error is due to an incorrect indentation level that violates Python's syntax rules for block structures."
+  },
+  {
+    "error": "AttributeError: 'list' object has no attribute 'appendleft'",
+    "beginner_explanation": "You are trying to use a function that doesn\u2019t exist for a list. 'appendleft' is not a valid list method.",
+    "intermediate_explanation": "This occurs when calling a method that's not defined for the object\u2019s type\u2014in this case, 'appendleft' on a list."
+  },
+  {
+    "error": "ZeroDivisionError: division by zero",
+    "beginner_explanation": "You are trying to divide a number by zero, which is not allowed. Division by zero causes an error in Python.",
+    "intermediate_explanation": "This error occurs because the divisor in a division operation is zero, which is mathematically undefined."
+  },
+  {
+    "error": "SyntaxError: invalid syntax",
+    "beginner_explanation": "Your code has a typo or something is written incorrectly, which Python can't understand.",
+    "intermediate_explanation": "Python parser encounters code that doesn't conform to valid syntax rules, such as missing colons or mismatched parentheses."
+  },
+  {
+    "error": "ValueError: invalid literal for int() with base 10: 'abc'",
+    "beginner_explanation": "You are trying to convert a word to a number, which is not possible.",
+    "intermediate_explanation": "Occurs when converting a string to an int fails because the string doesn't represent a valid number."
+  },
+  {
+    "error": "KeyError: 'key'",
+    "beginner_explanation": "You are trying to get a value from a dictionary using a key that doesn't exist.",
+    "intermediate_explanation": "This error occurs when attempting to access a dictionary key that hasn't been defined."
+  },
+  {
+    "error": "AttributeError: 'list' object has no attribute 'appendleft'",
+    "beginner_explanation": "You are trying to use a function that doesn\u2019t exist for a list. 'appendleft' is not a valid list method.",
+    "intermediate_explanation": "This occurs when calling a method that's not defined for the object\u2019s type\u2014in this case, 'appendleft' on a list."
+  },
+  {
+    "error": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "beginner_explanation": "You are trying to add a number and a string together, which Python doesn't allow.",
+    "intermediate_explanation": "This error indicates that you're performing an operation between incompatible types, such as adding an integer to a string."
+  },
+  {
+    "error": "ModuleNotFoundError: No module named 'abc'",
+    "beginner_explanation": "Python can't find the module named 'abc'. You might need to install it or check the spelling.",
+    "intermediate_explanation": "Raised when an import statement refers to a module that isn\u2019t available in the current environment or PYTHONPATH."
+  },
+  {
+    "error": "IndentationError: unexpected indent",
+    "beginner_explanation": "Your code has an extra or misplaced space that Python doesn't expect. Python relies on correct indentation.",
+    "intermediate_explanation": "This error is due to an incorrect indentation level that violates Python's syntax rules for block structures."
+  },
+  {
+    "error": "IndexError: list index out of range",
+    "beginner_explanation": "You tried to access a position in a list that doesn\u2019t exist. Check if the index is within the valid range.",
+    "intermediate_explanation": "This occurs when trying to access an index that exceeds the list\u2019s bounds."
+  },
+  {
+    "error": "NameError: name 'x' is not defined",
+    "beginner_explanation": "You are using a variable 'x' that hasn't been defined yet. Make sure you assign a value before using it.",
+    "intermediate_explanation": "This error arises when a variable is referenced before assignment or definition in the current scope."
+  },
+  {
+    "error": "AttributeError: 'list' object has no attribute 'appendleft'",
+    "beginner_explanation": "You are trying to use a function that doesn\u2019t exist for a list. 'appendleft' is not a valid list method.",
+    "intermediate_explanation": "This occurs when calling a method that's not defined for the object\u2019s type\u2014in this case, 'appendleft' on a list."
+  },
+  {
+    "error": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "beginner_explanation": "You are trying to add a number and a string together, which Python doesn't allow.",
+    "intermediate_explanation": "This error indicates that you're performing an operation between incompatible types, such as adding an integer to a string."
+  },
+  {
+    "error": "ModuleNotFoundError: No module named 'abc'",
+    "beginner_explanation": "Python can't find the module named 'abc'. You might need to install it or check the spelling.",
+    "intermediate_explanation": "Raised when an import statement refers to a module that isn\u2019t available in the current environment or PYTHONPATH."
+  },
+  {
+    "error": "KeyError: 'key'",
+    "beginner_explanation": "You are trying to get a value from a dictionary using a key that doesn't exist.",
+    "intermediate_explanation": "This error occurs when attempting to access a dictionary key that hasn't been defined."
+  },
+  {
+    "error": "SyntaxError: invalid syntax",
+    "beginner_explanation": "Your code has a typo or something is written incorrectly, which Python can't understand.",
+    "intermediate_explanation": "Python parser encounters code that doesn't conform to valid syntax rules, such as missing colons or mismatched parentheses."
+  },
+  {
+    "error": "NameError: name 'x' is not defined",
+    "beginner_explanation": "You are using a variable 'x' that hasn't been defined yet. Make sure you assign a value before using it.",
+    "intermediate_explanation": "This error arises when a variable is referenced before assignment or definition in the current scope."
+  },
+  {
+    "error": "IndexError: list index out of range",
+    "beginner_explanation": "You tried to access a position in a list that doesn\u2019t exist. Check if the index is within the valid range.",
+    "intermediate_explanation": "This occurs when trying to access an index that exceeds the list\u2019s bounds."
+  },
+  {
+    "error": "ValueError: invalid literal for int() with base 10: 'abc'",
+    "beginner_explanation": "You are trying to convert a word to a number, which is not possible.",
+    "intermediate_explanation": "Occurs when converting a string to an int fails because the string doesn't represent a valid number."
+  },
+  {
+    "error": "IndentationError: unexpected indent",
+    "beginner_explanation": "Your code has an extra or misplaced space that Python doesn't expect. Python relies on correct indentation.",
+    "intermediate_explanation": "This error is due to an incorrect indentation level that violates Python's syntax rules for block structures."
+  },
+  {
+    "error": "ZeroDivisionError: division by zero",
+    "beginner_explanation": "You are trying to divide a number by zero, which is not allowed. Division by zero causes an error in Python.",
+    "intermediate_explanation": "This error occurs because the divisor in a division operation is zero, which is mathematically undefined."
+  },
+  {
+    "error": "NameError: name 'x' is not defined",
+    "beginner_explanation": "You are using a variable 'x' that hasn't been defined yet. Make sure you assign a value before using it.",
+    "intermediate_explanation": "This error arises when a variable is referenced before assignment or definition in the current scope."
+  },
+  {
+    "error": "AttributeError: 'list' object has no attribute 'appendleft'",
+    "beginner_explanation": "You are trying to use a function that doesn\u2019t exist for a list. 'appendleft' is not a valid list method.",
+    "intermediate_explanation": "This occurs when calling a method that's not defined for the object\u2019s type\u2014in this case, 'appendleft' on a list."
+  },
+  {
+    "error": "IndexError: list index out of range",
+    "beginner_explanation": "You tried to access a position in a list that doesn\u2019t exist. Check if the index is within the valid range.",
+    "intermediate_explanation": "This occurs when trying to access an index that exceeds the list\u2019s bounds."
+  },
+  {
+    "error": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "beginner_explanation": "You are trying to add a number and a string together, which Python doesn't allow.",
+    "intermediate_explanation": "This error indicates that you're performing an operation between incompatible types, such as adding an integer to a string."
+  },
+  {
+    "error": "ZeroDivisionError: division by zero",
+    "beginner_explanation": "You are trying to divide a number by zero, which is not allowed. Division by zero causes an error in Python.",
+    "intermediate_explanation": "This error occurs because the divisor in a division operation is zero, which is mathematically undefined."
+  },
+  {
+    "error": "ModuleNotFoundError: No module named 'abc'",
+    "beginner_explanation": "Python can't find the module named 'abc'. You might need to install it or check the spelling.",
+    "intermediate_explanation": "Raised when an import statement refers to a module that isn\u2019t available in the current environment or PYTHONPATH."
+  },
+  {
+    "error": "ValueError: invalid literal for int() with base 10: 'abc'",
+    "beginner_explanation": "You are trying to convert a word to a number, which is not possible.",
+    "intermediate_explanation": "Occurs when converting a string to an int fails because the string doesn't represent a valid number."
+  },
+  {
+    "error": "IndentationError: unexpected indent",
+    "beginner_explanation": "Your code has an extra or misplaced space that Python doesn't expect. Python relies on correct indentation.",
+    "intermediate_explanation": "This error is due to an incorrect indentation level that violates Python's syntax rules for block structures."
+  },
+  {
+    "error": "SyntaxError: invalid syntax",
+    "beginner_explanation": "Your code has a typo or something is written incorrectly, which Python can't understand.",
+    "intermediate_explanation": "Python parser encounters code that doesn't conform to valid syntax rules, such as missing colons or mismatched parentheses."
+  },
+  {
+    "error": "KeyError: 'key'",
+    "beginner_explanation": "You are trying to get a value from a dictionary using a key that doesn't exist.",
+    "intermediate_explanation": "This error occurs when attempting to access a dictionary key that hasn't been defined."
+  }
+]

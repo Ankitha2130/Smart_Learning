@@ -1,0 +1,8 @@
+Flask
+flake8
+autopep8
+Flask-SQLAlchemy
+python-dotenv
+transformers
+xhtml2pdf
+flask_migrate
